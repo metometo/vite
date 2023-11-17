@@ -1,0 +1,9 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/assets/*.{png,jpg,gif,bmp}"] // могат да се добавят и още папки със запетаи (напр "/css/*")
+  }
+}
+
+// подробно описание на конфигурацията на статичните уеб приложения:
+// https://learn.microsoft.com/en-us/azure/static-web-apps/configuration#fallback-routes
